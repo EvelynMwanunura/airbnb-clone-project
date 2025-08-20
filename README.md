@@ -1,5 +1,6 @@
 # airbnb-clone-project
 - [Team Roles](#TeamRoles)
+- [Technology Stack](#TechnologyStack)
   
 👥 ##TeamRoles
 
@@ -44,3 +45,18 @@ Ensures the backend meets functional requirements and handles edge cases.
 Automates regression testing for stable releases.
 
 Works closely with the team to track and resolve defects before deployment.
+
+
+
+##TechnologyStack
+
+This project is built using the following technologies:
+
+- **Django**: A high-level Python web framework used for building the RESTful API.  
+- **Django REST Framework (DRF)**: Provides powerful tools for creating and managing RESTful APIs.  
+- **PostgreSQL**: A robust relational database system used for reliable data storage and management.  
+- **GraphQL**: Enables flexible and efficient querying of data, allowing clients to request only the data they need.  
+- **Celery**: Handles asynchronous tasks such as sending notifications and processing background jobs.  
+- **Redis**: Used for caching, message brokering, and session management to improve performance.  
+- **Docker**: Ensures consistent development and deployment environments through containerization.  
+- **CI/CD Pipelines**: Automates testing, building, and deployment of code changes for faster and more reliable releases. 
