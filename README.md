@@ -2,6 +2,7 @@
 - [Team Roles](#TeamRoles)
 - [Technology Stack](#TechnologyStack)
 - [Database Design](#DatabseDesign)
+- [Feature Breakdown](#FeatureBreakdown)
   
 👥 ## TeamRoles
 
@@ -115,3 +116,29 @@ The database for the Airbnb Clone Project is designed to support core functional
 - **Users → Reviews**: A user can leave multiple reviews.
 
 This relational structure ensures scalability, data integrity, and alignment with real-world Airbnb-like workflows.
+
+## Feature Breakdown
+
+The Airbnb Clone Project includes several core features that replicate the functionality of a real-world booking platform. These features are designed to provide a seamless experience for both hosts and guests while ensuring system reliability and security.
+
+### 1. User Management
+Users can register, log in, and manage their profiles. The system supports different roles such as guests, hosts, and admins, ensuring personalized access and functionality.
+
+### 2. Property Management
+Hosts can list new properties, update details, set availability, and manage pricing. This feature enables the platform to showcase diverse accommodation options for guests.
+
+### 3. Booking System
+Guests can browse available properties, make reservations, and manage their bookings. This feature ensures that scheduling, availability, and conflicts are handled efficiently.
+
+### 4. Review System
+Guests can leave feedback and ratings for properties they have stayed in. Reviews enhance trust and help future guests make informed booking decisions.
+
+### 5. Payment Processing
+The system integrates secure payment handling for bookings. It supports multiple payment methods and ensures transaction safety, providing confidence to both hosts and guests.
+
+### 6. Security & Authentication
+Robust authentication and authorization mechanisms are implemented to protect user data and restrict access. This feature ensures only authorized users can perform sensitive actions like booking, reviewing, or listing properties.
+
+### 7. CI/CD Pipeline Integration
+The project includes a continuous integration and deployment (CI/CD) pipeline for automated testing and smooth deployment. This ensures efficiency, reduces manual errors, and supports agile team collaboration.
+
