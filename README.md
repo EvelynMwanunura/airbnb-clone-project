@@ -3,6 +3,7 @@
 - [Technology Stack](#TechnologyStack)
 - [Database Design](#DatabseDesign)
 - [Feature Breakdown](#FeatureBreakdown)
+- [API Security](#APISecurity)
   
 👥 ## TeamRoles
 
@@ -142,3 +143,28 @@ Robust authentication and authorization mechanisms are implemented to protect us
 ### 7. CI/CD Pipeline Integration
 The project includes a continuous integration and deployment (CI/CD) pipeline for automated testing and smooth deployment. This ensures efficiency, reduces manual errors, and supports agile team collaboration.
 
+## API Security
+
+Securing the backend APIs of the Airbnb Clone Project is critical to protecting sensitive data, ensuring safe transactions, and maintaining user trust. The following measures will be implemented:
+
+### 1. Authentication
+Only verified users can access the system through secure login mechanisms (e.g., JWT-based authentication). This prevents unauthorized individuals from gaining access to user accounts or sensitive data.
+
+### 2. Authorization
+Role-based access control ensures users can only perform actions allowed for their role. For example, only hosts can manage properties, and only guests can make bookings. This protects system integrity and prevents misuse.
+
+### 3. Data Encryption
+Sensitive data such as passwords and payment information will be encrypted both in transit (via HTTPS/TLS) and at rest. This ensures that user information remains secure even if intercepted.
+
+### 4. Rate Limiting & Throttling
+API requests will be rate-limited to prevent abuse such as brute-force login attempts or denial-of-service attacks. This protects system availability and performance for legitimate users.
+
+### 5. Input Validation & Sanitization
+All user inputs will be validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS). This ensures the backend is protected against malicious requests.
+
+### 6. Secure Payment Handling
+Payments will be processed through trusted gateways with strict compliance (e.g., PCI-DSS). This ensures transactions are safe and that financial data is not exposed.
+
+---
+
+By applying these security measures, the Airbnb Clone Project will safeguard user data, maintain system stability, and provide a trustworthy environment for both hosts and guests.
